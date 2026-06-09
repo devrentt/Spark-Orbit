@@ -6,7 +6,7 @@ public class BillboardFaceCamera : MonoBehaviour
 
     void Start()
     {
-        _cam = Camera.main;
+        _cam = Camera.main; //mencari kamera utama di scene
     }
 
     void LateUpdate()
@@ -14,7 +14,7 @@ public class BillboardFaceCamera : MonoBehaviour
         if (_cam == null) return;
 
         // Arahkan transform ini ke kamera
-        transform.LookAt(transform.position + _cam.transform.rotation * Vector3.forward,
+        transform.LookAt(transform.position + _cam.transform.rotation * Vector3.forward, //Punya fungsi agar target mengarah ke kamera
                          _cam.transform.rotation * Vector3.up);
     }
 }
