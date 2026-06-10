@@ -42,7 +42,7 @@ public class UniversalZoom : MonoBehaviour
 
             Vector2 touch1PrevPos =
                 touch1.position - touch1.deltaPosition;
-            // 2 line diatas punya fungsi buat ngitung posisi sebelumnya dari kedua sentuhan dengan mengurangi posisi saat ini dengan perubahan posisi (deltaPosition) dari masing-masing sentuhan.
+            // 4 line diatas punya fungsi buat ngitung posisi sebelumnya dari kedua sentuhan dengan mengurangi posisi saat ini dengan perubahan posisi (deltaPosition) dari masing-masing sentuhan.
             
             float prevMagnitude =
                 (touch0PrevPos - touch1PrevPos).magnitude;
