@@ -9,3 +9,5 @@ An Augmented Reality interactive book application built with Unity and Vuforia E
 - Interactive Info Panel — tap the planet to toggle a Quad-based info panel with planet details
 - Pinch to Zoom — pinch gesture support to zoom in/out on the 3D model
 - Multi-Target Support — all 8 planets supported simultaneously in a single database
+
+<img width="234" height="340" alt="image" src="https://github.com/user-attachments/assets/fa6d576e-f71c-4f9c-bf1b-5c67c2fd301c" />
